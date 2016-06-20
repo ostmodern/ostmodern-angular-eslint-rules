@@ -1,5 +1,5 @@
 {
-  "name": "ostmodern-eslint-rules",
+  "name": "eslint-config-ostmodern",
   "private": true,
   "version": "0.0.1"
 }
