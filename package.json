@@ -1,6 +1,5 @@
 {
   "name": "eslint-config-ostmodern",
   "private": true,
-  "main": "./eslint-config-ostmodern.js",
   "version": "0.0.1"
 }
