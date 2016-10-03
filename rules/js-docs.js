@@ -3,6 +3,7 @@
 const rules = {
   'valid-jsdoc': [
     'warn', {
+      requireReturn: false,
       prefer: {
         return: 'returns'
       },
