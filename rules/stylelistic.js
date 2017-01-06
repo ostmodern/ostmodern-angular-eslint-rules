@@ -36,8 +36,14 @@ const rules = {
   'one-var-declaration-per-line': ['warn', 'always'],
   'padded-blocks': ['warn', 'never'],
   'quotes': ['warn', 'single'],
-  'valid-js': 'off',
-  'require-jsdoc': 'off',
+  'valid-jsdoc': 'off',
+  'require-jsdoc': [ "error", {
+    "require": {
+        "FunctionDeclaration": true,
+        "MethodDefinition": true,
+        "ClassDeclaration": false
+    }
+  }],
   'semi': ['error', 'always'],
   'spaced-comment': ['warn', 'always'],
   'arrow-parens': ['warn', 'as-needed'],
