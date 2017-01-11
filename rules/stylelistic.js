@@ -37,11 +37,11 @@ const rules = {
   'padded-blocks': ['warn', 'never'],
   'quotes': ['warn', 'single'],
   'valid-jsdoc': 'off',
-  'require-jsdoc': [ "error", {
-    "require": {
-        "FunctionDeclaration": true,
-        "MethodDefinition": true,
-        "ClassDeclaration": false
+  'require-jsdoc': [ 'warn', {
+    'require': {
+        'FunctionDeclaration': true,
+        'MethodDefinition': true,
+        'ClassDeclaration': false
     }
   }],
   'semi': ['error', 'always'],
