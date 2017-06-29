@@ -3,10 +3,11 @@
  */
 const bestPracticesRules = require('./rules/best-practices');
 const stylelisticRules = require('./rules/stylelistic');
+const jasmineRules = require('./rules/jasmine')
 const miscRules = {
   'no-console': 'warn'
 };
 
 module.exports = {
-  rules: Object.assign({}, stylelisticRules, miscRules, bestPracticesRules)
+  rules: Object.assign({}, stylelisticRules, miscRules, bestPracticesRules, jasmineRules)
 };
