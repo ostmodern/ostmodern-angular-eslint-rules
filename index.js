@@ -3,7 +3,7 @@
  */
 const bestPracticesRules = require('./rules/best-practices');
 const stylelisticRules = require('./rules/stylelistic');
-const jasmineRules = require('./rules/jasmine')
+const jasmineRules = require('./rules/jasmine');
 const miscRules = {
   'no-console': 'warn'
 };
