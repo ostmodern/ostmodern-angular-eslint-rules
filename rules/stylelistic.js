@@ -56,7 +56,8 @@ const rules = {
   'prefer-template': 'warn',
   'template-curly-spacing': ['warn', 'never'],
   'no-var': 'warn',
-  'no-useless-constructor': 'warn'
+  'no-useless-constructor': 'warn',
+  'space-before-function-paren': ['error', 'always']
 };
 
 module.exports = rules;
