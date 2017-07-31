@@ -57,7 +57,8 @@ const rules = {
   'template-curly-spacing': ['warn', 'never'],
   'no-var': 'warn',
   'no-useless-constructor': 'warn',
-  'space-before-function-paren': ['error', 'always']
+  'space-before-function-paren': ['error', 'always'],
+  'class-methods-use-this': 'off'
 };
 
 module.exports = rules;
