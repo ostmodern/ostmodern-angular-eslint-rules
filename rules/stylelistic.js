@@ -19,6 +19,7 @@ const rules = {
   'new-parens': 'warn',
   'newline-before-return': 'warn',
   'no-array-constructor': 'warn',
+  "no-confusing-arrow": 0,
   'no-inline-comments': 'warn',
   'no-continue': 'warn',
   'no-bitwise': 'warn',
