@@ -39,6 +39,9 @@ const rules = {
   'no-confusing-arrow': 'off',
   'no-inline-comments': 'off',
   'no-continue': 'error',
+  'no-console': ['error', {
+    'allow': ['warn', 'error']
+  }],
   'no-bitwise': 'error',
   'no-lonely-if': 'error',
   'no-mixed-spaces-and-tabs': 'error',
@@ -52,9 +55,9 @@ const rules = {
   'one-var': ['error', 'never'],
   'one-var-declaration-per-line': ['error', 'always'],
   'padded-blocks': ['error', {
-    "blocks": "never",
-    "switches": "never",
-    "classes": "always"
+    'blocks': 'never',
+    'switches': 'never',
+    'classes': 'always'
   }],
   'quotes': ['error', 'single'],
   'semi': ['error', 'always'],
